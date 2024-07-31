@@ -1,0 +1,52 @@
+@media only screen and (max-width: 480px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+    
+}
+
+@media only screen and (max-width: 1023px) {
+    
+}
+
+@media only screen and (max-width: 1232px) {
+   /* body {
+    overflow-x: hidden;
+   }  */
+
+   .available {
+    overflow-x: hidden;
+   }
+
+   .hero-text-box {
+    position: relative;
+    /* transform: translate(-100px, -50px); */
+    padding: 0,2%;
+    }
+
+    header {
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url(img/hero.jpg) ;
+        background-size: cover;
+        color: white;
+    }
+
+    header .btn {
+        color: white;
+        border-color: white;
+    }
+
+    header .btn:hover {
+        border-color: #e67e22;
+    }
+
+    /* .section-plans {
+        position: relative;
+        transform: translate(0, -200px);
+    } */
+
+    /* footer {
+        position: absolute;
+        transform: translate(0, 500px);
+    } */
+}
